@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Maven Project" duration-ms="75898" started-at="2020-06-09T18:52:15Z" finished-at="2020-06-09T18:53:30Z">
+    <groups>
+      <group name="Regression">
+        <method signature="Home.Giftcards()[pri:4, instance:testScenarios.Home@4667ae56]" name="Giftcards" class="testScenarios.Home"/>
+        <method signature="Home.Hotel()[pri:6, instance:testScenarios.Home@4667ae56]" name="Hotel" class="testScenarios.Home"/>
+        <method signature="Home.backtohotel()[pri:5, instance:testScenarios.Home@4667ae56]" name="backtohotel" class="testScenarios.Home"/>
+        <method signature="Home.cab_selection()[pri:2, instance:testScenarios.Home@4667ae56]" name="cab_selection" class="testScenarios.Home"/>
+        <method signature="Home.navigation()[pri:3, instance:testScenarios.Home@4667ae56]" name="navigation" class="testScenarios.Home"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Home.loginpage_cab()[pri:1, instance:testScenarios.Home@4667ae56]" name="loginpage_cab" class="testScenarios.Home"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="makemymaven" duration-ms="75898" started-at="2020-06-09T18:52:15Z" finished-at="2020-06-09T18:53:30Z">
+      <class name="testScenarios.Home">
+        <test-method status="PASS" signature="Driverconfig()[pri:0, instance:testScenarios.Home@4667ae56]" name="Driverconfig" is-config="true" duration-ms="16025" started-at="2020-06-09T18:52:15Z" finished-at="2020-06-09T18:52:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driverconfig -->
+        <test-method status="PASS" signature="loginpage_cab()[pri:1, instance:testScenarios.Home@4667ae56]" name="loginpage_cab" duration-ms="12851" started-at="2020-06-09T18:52:31Z" finished-at="2020-06-09T18:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage_cab -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.Home@4667ae56]" name="tearDown" is-config="true" duration-ms="925" started-at="2020-06-09T18:52:43Z" finished-at="2020-06-09T18:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginpage_cab status=SUCCESS method=Home.loginpage_cab()[pri:1, instance:testScenarios.Home@4667ae56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="cab_selection()[pri:2, instance:testScenarios.Home@4667ae56]" name="cab_selection" duration-ms="371" started-at="2020-06-09T18:52:44Z" finished-at="2020-06-09T18:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cab_selection -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.Home@4667ae56]" name="tearDown" is-config="true" duration-ms="52" started-at="2020-06-09T18:52:45Z" finished-at="2020-06-09T18:52:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cab_selection status=SUCCESS method=Home.cab_selection()[pri:2, instance:testScenarios.Home@4667ae56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="navigation()[pri:3, instance:testScenarios.Home@4667ae56]" name="navigation" duration-ms="2398" started-at="2020-06-09T18:52:45Z" finished-at="2020-06-09T18:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.Home@4667ae56]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-06-09T18:52:47Z" finished-at="2020-06-09T18:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigation status=SUCCESS method=Home.navigation()[pri:3, instance:testScenarios.Home@4667ae56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Giftcards()[pri:4, instance:testScenarios.Home@4667ae56]" name="Giftcards" duration-ms="27178" started-at="2020-06-09T18:52:47Z" finished-at="2020-06-09T18:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Giftcards -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.Home@4667ae56]" name="tearDown" is-config="true" duration-ms="44" started-at="2020-06-09T18:53:14Z" finished-at="2020-06-09T18:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Giftcards status=SUCCESS method=Home.Giftcards()[pri:4, instance:testScenarios.Home@4667ae56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="backtohotel()[pri:5, instance:testScenarios.Home@4667ae56]" name="backtohotel" duration-ms="2039" started-at="2020-06-09T18:53:14Z" finished-at="2020-06-09T18:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backtohotel -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.Home@4667ae56]" name="tearDown" is-config="true" duration-ms="120" started-at="2020-06-09T18:53:17Z" finished-at="2020-06-09T18:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=backtohotel status=SUCCESS method=Home.backtohotel()[pri:5, instance:testScenarios.Home@4667ae56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Hotel()[pri:6, instance:testScenarios.Home@4667ae56]" name="Hotel" duration-ms="1544" started-at="2020-06-09T18:53:17Z" finished-at="2020-06-09T18:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hotel -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testScenarios.Home@4667ae56]" name="tearDown" is-config="true" duration-ms="31" started-at="2020-06-09T18:53:18Z" finished-at="2020-06-09T18:53:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Hotel status=SUCCESS method=Home.Hotel()[pri:6, instance:testScenarios.Home@4667ae56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Driverclose()[pri:0, instance:testScenarios.Home@4667ae56]" name="Driverclose" is-config="true" duration-ms="12208" started-at="2020-06-09T18:53:18Z" finished-at="2020-06-09T18:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driverclose -->
+      </class> <!-- testScenarios.Home -->
+    </test> <!-- makemymaven -->
+  </suite> <!-- Maven Project -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Maven Project]">
+  <listeners>
+    <listener class-name="UserDefinedlibraries.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="makemymaven(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.Home">
+        <methods>
+          <include name="Giftcards"/>
+          <include name="backtohotel"/>
+          <include name="Hotel"/>
+          <include name="tearDown"/>
+          <include name="cab_selection"/>
+          <include name="navigation"/>
+          <include name="Driverclose"/>
+          <include name="Driverconfig"/>
+        </methods>
+      </class> <!-- testScenarios.Home -->
+    </classes>
+  </test> <!-- makemymaven(failed) -->
+</suite> <!-- Failed suite [Maven Project] -->
